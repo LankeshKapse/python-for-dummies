@@ -1,2 +1,2 @@
 # python-for-dummies
-pythone code base for begginers
+pythone code base for beginners
