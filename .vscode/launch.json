@@ -7,9 +7,10 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "justMyCode": "true",
+            "justMyCode": false,
+            "purpose": ["debug-test"],
             "env": {
-                "PYTHONPATH":"${workspaceFolder}/src"
+                "PYTHONPATH":"${workspaceFolder}/src;${workspaceFolder}/test"
             }
         }
     ]

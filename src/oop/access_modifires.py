@@ -1,17 +1,19 @@
 
 class Student:
     
-    name = ''
-    _age = 0.0
-    __grade = ''
+    def __int__(self):
+        self.name = "abc"
+        self.age = 22.3
+        self.grade = "A"
+        
     
-    def get__grade(self):
-        return self.__grade
+    def get_grade(self):
+        return self.grade
     
 
 
 
 s1 = Student()
 
-s1.__grade='A'
-print(s1.__grade)
+s1.grade='A'
+print(s1.grade)
