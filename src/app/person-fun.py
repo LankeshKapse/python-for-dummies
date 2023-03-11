@@ -1,10 +1,3 @@
-
-
-
-import sys
-for path in sys.path:
-    print(path)
-    
 from app.main import Person
 
 
